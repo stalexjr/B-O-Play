@@ -10,67 +10,214 @@ ul, ol{margin: 0; padding: 0; list-style: none;}
 a{text-decoration: none;}
 .clear{clear: both;}
 
-header{width: 100%; height: 100px; background-color: #fff; box-shadow: 0 2px 4px rgba(0,0,0,0.4); position: fixed; top:0; left:0; z-index: 10;}
-header .wrap{width: 1200px; margin: 0 auto; padding: 0 10px;}
-header .wrap nav{float: left;}
-header .wrap nav .logo{display: inline-block; vertical-align: middle; padding: 28px 120px 28px 0; width: 80px;}  /*(100 - 44) / 2*/
-header .wrap nav .logo a{display: block;}
-header .wrap nav .logo a img{display: block; height: 44px;}
+header{
+    width: 100%; 
+    height: 100px; 
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4); 
+    position: fixed;
+    top:0; 
+    left:0; 
+    z-index: 10;
+}
+header .wrap{
+    width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 10px;
+}
+header .wrap nav{
+    float: left;
+}
+header .wrap nav .logo{
+    display: inline-block; 
+    vertical-align: middle; 
+    padding: 28px 120px 28px 0; 
+    width: 80px;
+}  /*(100 - 44) / 2*/
+header .wrap nav .logo a{
+    display: block;
+}
+header .wrap nav .logo a img{
+    display: block; 
+    height: 44px;
+}
 
-header .wrap nav ul{display: inline-block; vertical-align: middle;}
-header .wrap nav ul li{display: inline-block; margin: 0 15px;}
-header .wrap nav ul li:first-child{margin-left: 0;}
+header .wrap nav ul{
+    display: inline-block; 
+    vertical-align: middle;
+}
+header .wrap nav ul li{
+    display: inline-block; 
+    margin: 0 15px;
+}
+header .wrap nav ul li:first-child{
+    margin-left: 0;
+}
 
-header .wrap nav ul li a{display: block; font-size: 12px; color:#323232; text-transform: uppercase;}
-header .wrap nav ul li:hover a{color:#795548;}
+header .wrap nav ul li a{
+    display: block; 
+    font-size: 12px; 
+    color:#323232; 
+    text-transform: uppercase;
+}
+header .wrap nav ul li:hover a{
+    color:#795548;
+}
 
 
 
-header .wrap .mypage{float: right; padding: 40px 0;}/*(100 - 20) / 2*/
-header .wrap .mypage ul{}
-header .wrap .mypage ul li{display: inline-block; vertical-align: middle; margin: 0 10px;}
-header .wrap .mypage ul li a{display: block;}
-header .wrap .mypage ul li a img{display: block; height: 20px;}
+header .wrap .mypage{
+    float: right; 
+    padding: 40px 0;
+}/*(100 - 20) / 2*/
+header .wrap .mypage ul{
+
+}
+header .wrap .mypage ul li{
+    display: inline-block; 
+    vertical-align: middle; 
+    margin: 0 10px;
+}
+header .wrap .mypage ul li a{
+    display: block;
+}
+header .wrap .mypage ul li a img{
+    display: block; 
+    height: 20px;
+}
 
 
 /*#main*/
-#main{height: 100vh; background-image: url(../img/cs-home-hero.jpg); background-size: cover; background-position: 50% 50%;}
+#main{
+    height: 100vh; 
+    background-image: url(../img/cs-home-hero.jpg); 
+    background-size: cover; 
+    background-position: 50% 50%;
+}
 
-#main .dark_bg{height: 100%; padding-top: 100px; background-color: rgba(0,0,0,0.5);}
+#main .dark_bg{
+    height: 100%; 
+    padding-top: 100px; 
+    background-color: rgba(0,0,0,0.5);
+}
 
-#main .dark_bg .wrap{width: 1200px; margin: 0 auto; height: 100%; position: relative;}
+#main .dark_bg .wrap{
+    width: 1200px; 
+    margin: 0 auto; 
+    height: 100%; 
+    position: relative;
+}
 
-#main .dark_bg .wrap .main_center{width: 50%; padding: 0 10px; position: absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align: center; color:#fff;}
+#main .dark_bg .wrap .main_center{
+    width: 50%; 
+    padding: 0 10px; 
+    position: absolute; 
+    top:50%; 
+    left:50%; 
+    transform:translate(-50%, -50%); 
+    text-align: center; 
+    color:#fff;
+}
 
-#main .dark_bg .wrap .main_center h4{font-size: 18px; line-height: 30px; padding-bottom: 20px; font-weight: normal;}
-#main .dark_bg .wrap .main_center h1{font-size: 48px; line-height: 60px; padding-bottom: 40px; font-weight: normal;}
-#main .dark_bg .wrap .main_center p{font-size: 18px; padding-bottom: 40px;}
+#main .dark_bg .wrap .main_center h4{
+    font-size: 18px; 
+    line-height: 30px; 
+    padding-bottom: 20px; 
+    font-weight: normal;
+}
+#main .dark_bg .wrap .main_center h1{
+    font-size: 48px; 
+    line-height: 60px; 
+    padding-bottom: 40px; 
+    font-weight: normal;
+}
+#main .dark_bg .wrap .main_center p{
+    font-size: 18px; 
+    padding-bottom: 40px;
+}
 #main .dark_bg .wrap .main_center div{}
-#main .dark_bg .wrap .main_center div a{display: block; width: 200px; height: 40px; margin: 0 auto; border: 1px solid #fff; line-height: 38px; color:#fff; font-size: 14px; transition: background-color 0.5s;}
+#main .dark_bg .wrap .main_center div a{
+    display: block; 
+    width: 200px; 
+    height: 40px; 
+    margin: 0 auto; 
+    border: 1px solid #fff; 
+    line-height: 38px; 
+    color:#fff; 
+    font-size: 14px; 
+    transition: background-color 0.5s;
+}
 
-#main .dark_bg .wrap .main_center div a:hover{background-color: rgba(255,255,255,0.4);}
+#main .dark_bg .wrap .main_center div a:hover{
+    background-color: rgba(255,255,255,0.4);
+}
 
-#product{padding: 120px 0;}
-#product .wrap{width: 1200px; margin: 0 auto;}
-#product .wrap .title{padding:0 10px 20px;}
-#product .wrap .title h2{font-size: 36px; line-height: 60px; color:#323232; font-weight: 300;}
+#product{
+    padding: 120px 0;
+}
+#product .wrap{
+    width: 1200px; 
+    margin: 0 auto;
+}
+#product .wrap .title{
+    padding:0 10px 20px;
+}
+#product .wrap .title h2{
+    font-size: 36px; 
+    line-height: 60px; 
+    color:#323232; 
+    font-weight: 300;
+}
 
-#product .wrap .explain{font-size: 0;}
-#product .wrap .explain > div{display: inline-block; vertical-align: middle;}
-#product .wrap .explain .ex_img{width: calc(100% / 3 - 20px); height: 240px; margin: 0 10px 20px; background-image: url(../img/showroom1.jpg); background-size: cover; background-position: 50% 50%;}
+#product .wrap .explain{
+    font-size: 0;
+}
+#product .wrap .explain > div{
+    display: inline-block; 
+    vertical-align: middle;
+}
+#product .wrap .explain .ex_img{
+    width: calc(100% / 3 - 20px); 
+    height: 240px; 
+    margin: 0 10px 20px; 
+    background-image: url(../img/showroom1.jpg); 
+    background-size: cover; 
+    background-position: 50% 50%;
+}
 
-#product .wrap .explain .ex_txt{width: calc(100% * 2 / 3);}
-#product .wrap .explain .ex_txt p{font-size: 18px; color:#8d8d8d;}
+#product .wrap .explain .ex_txt{
+    width: calc(100% * 2 / 3);
+}
+#product .wrap .explain .ex_txt p{
+    font-size: 18px; 
+    color:#8d8d8d;
+}
 
-#product .wrap .explain .ex_txt p:first-child{width: calc(100% * 7 / 8 - 20px); margin: 0 10px; padding-bottom: 20px;}
+#product .wrap .explain .ex_txt p:first-child{
+    width: calc(100% * 7 / 8 - 20px); 
+    margin: 0 10px; 
+    padding-bottom: 20px;
+}
 
-#product .wrap .explain .ex_txt p:last-child{width: calc(100% * 7 / 8 - 20px); margin: 0 10px 0 calc(100% / 8 + 10px); }
-/*좌측에 부여될 마진 10px + 한카띄기(100px)*/
+#product .wrap .explain .ex_txt p:last-child{
+    width: calc(100% * 7 / 8 - 20px); 
+    margin: 0 10px 0 calc(100% / 8 + 10px); 
+}
+/*좌측에 부여될 마진 10px + 한칸띄기(100px)*/
 
 
 #product .wrap .cont{}
-#product .wrap .cont:after{content:""; display: block; clear: both;}
-#product .wrap .cont .cont_box{float:left; width: calc(100% / 3 - 20px); height: 300px; margin: 0 10px 20px; 
+#product .wrap .cont:after{
+    content:""; 
+    display: block; 
+    clear: both;
+}
+#product .wrap .cont .cont_box{
+    float:left; 
+    width: calc(100% / 3 - 20px); 
+    height: 300px; 
+    margin: 0 10px 20px; 
+
     background: #fafafa; /* Old browsers */
     background: -moz-radial-gradient(circle, #fafafa 0%, #c1c1c1 100%); /* FF3.6-15 */
     background: -webkit-radial-gradient(circle, #fafafa 0%,#c1c1c1 100%); /* Chrome10-25,Safari5.1-6 */
@@ -80,31 +227,95 @@ header .wrap .mypage ul li a img{display: block; height: 20px;}
     overflow: hidden;
 }
 
-#product .wrap .cont .cont_box .mark{position: absolute; top: 20px; left: 20px; font-size: 24px; color:#fff; line-height: 1;}
-#product .wrap .cont .cont_box img{position: absolute; top:50%; left:50%; transform: translate(-50%, -50%) scale(1); transition:transform 0.5s;}
+#product .wrap .cont .cont_box .mark{
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    font-size: 24px; 
+    color:#fff; 
+    line-height: 1;
+}
+#product .wrap .cont .cont_box img{
+    position: absolute; 
+    top:50%; 
+    left:50%; 
+    transform: translate(-50%, -50%) scale(1); 
+    transition:transform 0.5s;
+}
 
-#product .wrap .cont .cont_box:hover img{transform: translate(-50%, -50%) scale(1.05); }
+#product .wrap .cont .cont_box:hover img{
+    transform: translate(-50%, -50%) scale(1.05); 
+}
 /*오리지널 버전에서 transform의 항목을 선언했는데 마우스오버시 transform의 항목을 새롭게 추가해야한다면 기존에 선언된 항목을 함께 작성해주어야 한다.*/
 
-#product .wrap .cont .cont_box .cont_txt{position: absolute; width: 100%; height: 80px; left:0; bottom:0; padding: 20px; background-color: rgba(255,255,255,0.75); transform:translateY(100%); transition:transform 0.5s;}
+#product .wrap .cont .cont_box .cont_txt{
+    position: absolute; 
+    width: 100%; 
+    height: 80px; 
+    left:0; 
+    bottom:0; 
+    padding: 20px; 
+    background-color: rgba(255,255,255,0.75); 
+    transform:translateY(100%); 
+    transition:transform 0.5s;
+}
 
 
-#product .wrap .cont .cont_box:hover .cont_txt{transform:translateY(0);}
+#product .wrap .cont .cont_box:hover .cont_txt{
+    transform:translateY(0);
+}
 /*50% / 0 / -50% / -100%*/
 
-#product .wrap .cont .cont_box .cont_txt h4{font-size: 14px; line-height: 20px; color:#323232;}
-#product .wrap .cont .cont_box .cont_txt p{font-size: 14px; line-height: 20px; color:#323232; text-align: right;}
+#product .wrap .cont .cont_box .cont_txt h4{
+    font-size: 14px; 
+    line-height: 20px; 
+    color:#323232;
+}
+#product .wrap .cont .cont_box .cont_txt p{
+    font-size: 14px; 
+    line-height: 20px; 
+    color:#323232; 
+    text-align: right;
+}
 
 
-#product .wrap .cont .cont_box:nth-child(4){width: calc(100% * 2 / 3 - 20px); background: #323232;}
+#product .wrap .cont .cont_box:nth-child(4){
+    width: calc(100% * 2 / 3 - 20px); 
+    background: #323232;
+}
 
-#product .wrap .cont .cont_box:nth-child(4) .ad_img{float:left; width: calc(50% - 10px); height: 100%; background-image: url(../img/recommand_01.jpg); background-position: 50% 50%; background-size: 100% auto; transition: background-size 0.5s;}
-#product .wrap .cont .cont_box:nth-child(4):hover .ad_img{background-size: 105% auto;}
+#product .wrap .cont .cont_box:nth-child(4) .ad_img{
+    float:left; 
+    width: calc(50% - 10px); 
+    height: 100%; 
+    background-image: url(../img/recommand_01.jpg); 
+    background-position: 50% 50%; 
+    background-size: 100% auto; 
+    transition: background-size 0.5s;
+}
+#product .wrap .cont .cont_box:nth-child(4):hover .ad_img{
+    background-size: 105% auto;
+}
 
-#product .wrap .cont .cont_box:nth-child(4) .ad_txt{float:left; width: calc(50% + 10px); height: 100%; padding: 20px;}
-#product .wrap .cont .cont_box:nth-child(4) .ad_txt h5{font-size: 14px; color:#c1c1c1; line-height: 20px;font-weight: 100; padding-bottom: 10px;}
+#product .wrap .cont .cont_box:nth-child(4) .ad_txt{
+    float:left; 
+    width: calc(50% + 10px); 
+    height: 100%; 
+    padding: 20px;
+}
+#product .wrap .cont .cont_box:nth-child(4) .ad_txt h5{
+    font-size: 14px; 
+    color:#c1c1c1; 
+    line-height: 20px;
+    font-weight: 100; 
+    padding-bottom: 10px;
+}
 
-#product .wrap .cont .cont_box:nth-child(4) .ad_txt h4{font-size: 22px; color:#fafafa; padding-bottom: 20px;}
+#product .wrap .cont .cont_box:nth-child(4) .ad_txt h4{
+    font-size: 22px; 
+    color:#fafafa;
+    padding-bottom: 20px;
+}
 
 #product .wrap .cont .cont_box:nth-child(4) .ad_txt p{font-size: 13px; color:#c1c1c1;padding-bottom: 20px; letter-spacing: 0.45px;}
 
